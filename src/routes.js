@@ -2,6 +2,7 @@ const express = require('express');
 const jwt = require('jsonwebtoken');
 
 const UsuarioController = require('./controllers/UsuarioController');
+const AnalisadorController = require('./controllers/AnalisadorController');
 
 const routes = express.Router();
 
@@ -28,5 +29,6 @@ function checkToken(req, res, next) {
 routes.get('/usuarios', checkToken, UsuarioController.index);
 routes.post('/usuarios/registrar', UsuarioController.register);
 routes.post('/usuarios/login', UsuarioController.login);
+routes.post('/analisador', checkToken, AnalisadorController.index);
 
 module.exports = routes;
