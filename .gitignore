@@ -1,0 +1,5 @@
+# arquivos privados
+.env
+
+# dependencias
+node_modules

@@ -1,0 +1,30 @@
+version: '3.5'
+
+services:
+
+  api:
+    build: .
+    container_name: aep-chatbot-api
+    image: aep-chatbot-api
+    env_file:
+      - ./.env
+    volumes:
+      - ./src:/app/src
+    ports:
+      - "3232:3232"
+  
+  postgres:
+    image: postgres:11.1-alpine
+    container_name: aep-chatbot-postgres
+    restart: always
+    env_file:
+      - ./.env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+      - ./data:/app/data
+      - ./src/database/seed:/app/seed
+    ports:
+      - 7676:5432
+
+volumes:
+  postgres_data:
