@@ -9,15 +9,16 @@ module.exports = {
       const { resposta } = req.body;
 
       const termos = verificarTermos(resposta);
-      console.log(termos);
-      const recursos = await Recurso.findAll({
-        where: {
-          id: {
-            [Op.or]: termos
+      let recursos = [];
+      if (termos.length) {
+        recursos = await Recurso.findAll({
+          where: {
+            id: {
+              [Op.or]: termos
+            }
           }
-        }
-      });
-      console.log(recursos);
+        });
+      }
       res.json({
         identificouTermos: recursos.length > 0,
         termos: recursos
