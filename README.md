@@ -33,3 +33,19 @@ e depois execute:
 ```
 sequelize db:migrate
 ```
+
+## Importar dados
+
+Com o banco de dados criado, é preciso importar dados iniciais. Isso pode ser feito executando o comando abaixo dentro do container `edu-chatbot-postgres`:
+
+```
+docker exec -it edu-chatbot-postgres sh
+```
+
+e depois:
+
+```
+psql -h localhost -U aepchatbot -d aepchatbot -f app/seed/import-data.sql
+```
+
+NOTA: Dados de acesso ao banco usados no comando acima variam conforme as variáveis de ambiente definidas no `.env`.
