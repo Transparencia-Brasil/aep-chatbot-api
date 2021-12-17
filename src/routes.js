@@ -33,5 +33,6 @@ routes.post('/usuarios/login', UsuarioController.login);
 routes.post('/analisador', checkToken, AnalisadorController.index);
 routes.get('/recursos', checkToken, RecursoController.index);
 routes.get('/recursos/:id', checkToken, RecursoController.get);
+routes.get('/recursos/get/:ids', checkToken, RecursoController.getByIds);
 
 module.exports = routes;
