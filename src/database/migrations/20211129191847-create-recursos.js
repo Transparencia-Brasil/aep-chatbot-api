@@ -11,6 +11,8 @@ module.exports = {
       },
       termo: Sequelize.DataTypes.STRING,
       descricao: Sequelize.DataTypes.STRING,
+      descricao_longa: Sequelize.DataTypes.STRING,
+      alternativa: Sequelize.DataTypes.STRING,
       recurso: Sequelize.DataTypes.TEXT,
     });
   },
