@@ -1,1 +1,2 @@
 \COPY recursos(id, termo, descricao, descricao_longa, alternativa, recurso) FROM '/app/data/recursos.csv' WITH NULL AS 'NA' DELIMITER ',' CSV HEADER;
+\COPY sics(uf, nivel, orgao, especifico, link) FROM '/app/data/sics.csv' WITH NULL AS 'NA' DELIMITER ',' CSV HEADER;
