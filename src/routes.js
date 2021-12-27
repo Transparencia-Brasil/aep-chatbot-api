@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken');
 const UsuarioController = require('./controllers/UsuarioController');
 const AnalisadorController = require('./controllers/AnalisadorController');
 const RecursoController = require('./controllers/RecursoController');
+const SicController = require('./controllers/SicController');
 
 const routes = express.Router();
 
@@ -34,5 +35,7 @@ routes.post('/analisador', checkToken, AnalisadorController.index);
 routes.get('/recursos', checkToken, RecursoController.index);
 routes.get('/recursos/:id', checkToken, RecursoController.get);
 routes.get('/recursos/get/:ids', checkToken, RecursoController.getByIds);
+routes.get('/sics', checkToken, SicController.index);
+routes.get('/sics/pesquisar', checkToken, SicController.search);
 
 module.exports = routes;
