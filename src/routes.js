@@ -5,6 +5,7 @@ const UsuarioController = require('./controllers/UsuarioController');
 const AnalisadorController = require('./controllers/AnalisadorController');
 const RecursoController = require('./controllers/RecursoController');
 const SicController = require('./controllers/SicController');
+const PedidoController = require('./controllers/PedidoController');
 
 const routes = express.Router();
 
@@ -37,5 +38,9 @@ routes.get('/recursos/:id', checkToken, RecursoController.get);
 routes.get('/recursos/get/:ids', checkToken, RecursoController.getByIds);
 routes.get('/sics', checkToken, SicController.index);
 routes.get('/sics/pesquisar', checkToken, SicController.search);
+routes.get('/pedidos', checkToken, PedidoController.index);
+routes.get('/pedidos/:id', checkToken, PedidoController.get);
+routes.post('/pedidos', checkToken, PedidoController.create);
+routes.put('/pedidos', checkToken, PedidoController.update);
 
 module.exports = routes;
