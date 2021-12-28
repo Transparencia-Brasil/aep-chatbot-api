@@ -1,0 +1,146 @@
+uf,nivel,orgao,especifico,link
+BR,Federal,Executivo,,https://falabr.cgu.gov.br/Login/Identificacao.aspx?idFormulario=3&tipo=8&ReturnUrl=%2fpublico%2fManifestacao%2fRegistrarManifestacao.aspx%3fidFormulario%3d3%26tipo%3d8%26origem%3didp%26modo%3d
+BR,Federal,Judiciário,Supremo Tribunal Federal,http://portal.stf.jus.br/centraldocidadao/acessoInformacao.asp
+BR,Federal,Judiciário,Superior Tribunal de Justiça,https://ouvidoria.web.stj.jus.br/?returnUrl=%2Fpedido-de-informacao
+BR,Federal,Judiciário,Tribunal Regional Federal da 1ª região,https://sei.trf1.jus.br/sei/controlador_externo.php?acao=ouvidoria&acao_origem=ouvidoria&id_orgao_acesso_externo=0
+BR,Federal,Judiciário,Tribunal Regional Federal da 2ª região,https://www10.trf2.jus.br/ai/formulario-sic/
+BR,Federal,Judiciário,Tribunal Regional Federal da 3ª região,http://web.trf3.jus.br/Sistemasweb/ContatoOuvidoria
+BR,Federal,Judiciário,Tribunal Regional Federal da 4ª região,https://www.trf4.jus.br/trf4/controlador.php?acao=ouvidoria&orgao=1&mostrar=s
+BR,Federal,Judiciário,Tribunal Regional Federal da 5ª região,https://sei.trf5.jus.br/sei/controlador_externo.php?acao=ouvidoria&id_orgao_acesso_externo=0
+BR,Federal,Judiciário,Tribunal Superior Eleitoral,https://www.tse.jus.br/eleitor/servicos/ouvidoria/formulario-da-assessoria-de-informacao-ao-cidadao
+BR,Federal,Ministério Público,,https://aplicativos.mpf.mp.br/ouvidoria/app/cidadao/manifestacao/cadastro/2
+AC,Estadual,Executivo,,http://esic.ac.gov.br/sistema/site/index.html?ReturnUrl=%2fsistema%2f
+AC,Estadual,Legislativo,,http://app.al.ac.leg.br/esic/login
+AC,Estadual,Judiciário,,https://sei.tjac.jus.br/sei/controlador_externo.php?acao=ouvidoria&id_orgao_acesso_externo=0
+AC,Estadual,Ministério Público,,http://transparencia.mpac.mp.br/categoria_arquivos/135
+AC,Estadual,Tribunal de Contas,,http://sistemas.tce.ac.gov.br/transparencia/paginas/publico/portal/solicitacao/cadastro.xhtml
+AL,Estadual,Executivo,,http://e-sic.al.gov.br/login/?next=/
+AL,Estadual,Legislativo,,https://www.al.al.leg.br/ouvidoria
+AL,Estadual,Judiciário,,https://www.tjal.jus.br/?pag=acessoInformacao
+AL,Estadual,Ministério Público,,https://www.mpal.mp.br/ouvidoria/
+AL,Estadual,Tribunal de Contas,,https://sic.tce.al.gov.br/informacao/
+AM,Estadual,Executivo,,https://acessoainformacao.am.gov.br/index/
+AM,Estadual,Legislativo,,http://www.ale.am.gov.br/solicitacao-de-informacao/
+AM,Estadual,Judiciário,,https://www.tjam.jus.br/index.php/ouvidoria-fale-conosco/nova-manifestacao?view=novamanifestacao&layout=edit
+AM,Estadual,Ministério Público,,https://www.mpam.mp.br/consulta-de-processo/cadastro-de-manifestacao-ouvidoria
+AM,Estadual,Tribunal de Contas,,https://transparencia.tce.am.gov.br/transparencia/?page_id=10038
+AP,Estadual,Executivo,,http://esic.ap.gov.br/
+AP,Estadual,Legislativo,,Não tem sistema eletrônico para apresentar pedidos. Você pode enviar o pedido por qualquer meio de contato (e-mail ou formulário de contato no site)
+AP,Estadual,Judiciário,,https://sig.tjap.jus.br/form_ouvidoria_manifestacao/form_ouvidoria_manifestacao.php
+AP,Estadual,Ministério Público,,http://mpap.mp.br/ouvidoria/
+AP,Estadual,Tribunal de Contas,,https://www.tce.ap.gov.br/ouvidoria/e-sic
+BA,Estadual,Executivo,,http://www.transparencia.ba.gov.br/SolicitacaoInformacao
+BA,Estadual,Legislativo,,http://www.transparencia.ba.gov.br/SolicitacaoInformacao
+BA,Estadual,Judiciário,,http://www7.tjba.jus.br/ouvidoria_web/esic.wsp
+BA,Estadual,Ministério Público,,https://atendimento.mpba.mp.br/#sessao-informacao
+BA,Estadual,Tribunal de Contas,,https://www.tce.ba.gov.br/transparencia
+CE,Estadual,Executivo,,https://cearatransparente.ce.gov.br/sign_in?locale=pt-BR&ticket_type=sic
+CE,Estadual,Legislativo,,Não tem sistema eletrônico para apresentar pedidos. Você pode enviar o pedido por qualquer meio de contato (e-mail ou formulário de contato no site)
+CE,Estadual,Judiciário,,https://tjcev2.tjce.jus.br/sic/
+CE,Estadual,Ministério Público,,http://saj-auth.cliente.mpce.mp.br/auth/realms/PETICIONAMENTO/protocol/openid-connect/auth?client_id=mp-peticionamento-app&redirect_uri=http%3A%2F%2Fsaj.cliente.mpce.mp.br%2F&state=29b56baf-ab81-41e1-8ab3-751d6dbbbdb0&response_mode=fragment&response_type=code&scope=openid&nonce=b13a2e5d-71b9-4f20-8233-b44f55b6108a
+CE,Estadual,Tribunal de Contas,,https://www.tce.ce.gov.br/ouvidoria/o-apresentacao
+DF,Estadual,Executivo,,https://www.e-sic.df.gov.br/Sistema/
+DF,Estadual,Legislativo,,https://www.cl.df.gov.br/web/guest/faca-seu-pedido#_com_liferay_iframe_web_portlet_IFramePortlet_INSTANCE_Tt8timQqoTlp_=23521589
+DF,Estadual,Judiciário,,Não tem sistema eletrônico para apresentar pedidos. Você pode enviar o pedido por qualquer meio de contato (e-mail ou formulário de contato no site) https://www.tjdft.jus.br/transparencia/acesso-a-informacao
+DF,Estadual,Ministério Público,,https://www.mpdft.mp.br/ouvidoriainternet/#/sic
+DF,Estadual,Tribunal de Contas,,https://ouvidoria.tc.df.gov.br/lei-de-acesso-a-informacao/
+ES,Estadual,Executivo,,https://acessoainformacao.es.gov.br/#orientacoes-cidadaos
+ES,Estadual,Legislativo,,http://esic.al.es.gov.br/sistema/index.htm
+ES,Estadual,Judiciário,,http://www.tjes.jus.br/ouvidoria/fale-conosco/
+ES,Estadual,Ministério Público,,http://www.mpes.mp.br/sicmp/
+ES,Estadual,Tribunal de Contas,,https://esic.tcees.tc.br/site/index.html?ReturnUrl=%2f
+GO,Estadual,Executivo,,http://www.cge.go.gov.br/ouvidoria/Register_1.php
+GO,Estadual,Legislativo,,https://transparencia.al.go.leg.br/fale-conosco
+GO,Estadual,Judiciário,,https://www.tjgo.jus.br/ouvidoria/externo/cadastro.do
+GO,Estadual,Ministério Público,,http://www.mpgo.mp.br/ouvidoria/cidadao/acesso.do?idOuvidoria=7
+GO,Estadual,Tribunal de Contas,,https://sic.tce.go.gov.br/
+MA,Estadual,Executivo,,http://www.e-sic.ma.gov.br/sistema/site/index.aspx?ReturnUrl=%2fsistema%2f
+MA,Estadual,Legislativo,,http://sistemas.al.ma.gov.br/ouvidoria/public/index.html
+MA,Estadual,Judiciário,,https://sistemas.tjma.jus.br/attende/xhtml/frmFormularioEletronico.jsf?tipoSolicitacao=4
+MA,Estadual,Ministério Público,,https://www.mpma.mp.br/index.php/transp-sic
+MA,Estadual,Tribunal de Contas,,https://transparencia.tce.ma.gov.br/index.php/conhecendo-a-ouvidoria
+MG,Estadual,Executivo,,http://www.acessoainformacao.mg.gov.br/sistema/site/index.html?ReturnUrl=%2fsistema%2f
+MG,Estadual,Legislativo,,https://www.almg.gov.br/participe/fale_assembleia/formulario.html?idAssunto=10
+MG,Estadual,Judiciário,,https://www.tjmg.jus.br/falecomtjmg/
+MG,Estadual,Ministério Público,,https://www.mpmg.mp.br/portal/menu/servicos/acesso-a-informacao/sei
+MG,Estadual,Tribunal de Contas,,https://www.tce.mg.gov.br/Noticia/?url=Contatos_Geral.asp
+MS,Estadual,Executivo,,http://www.esic.ms.gov.br/
+MS,Estadual,Legislativo,,https://www.transparencia.al.ms.gov.br/pages/index.php/sic
+MS,Estadual,Judiciário,,https://sti.tjms.jus.br/confluence/pages/viewpage.action?pageId=181606641
+MS,Estadual,Ministério Público,,https://www.mpms.mp.br/sic
+MS,Estadual,Tribunal de Contas,,http://www.tce.ms.gov.br/ouvidoria/sic/#!/
+MT,Estadual,Executivo,,http://www.controladoria.mt.gov.br/acesso-a-informacao
+MT,Estadual,Legislativo,,https://www.al.mt.gov.br/transparencia/
+MT,Estadual,Judiciário,,http://www.tjmt.jus.br/OutrasAreas/Ouvidoria
+MT,Estadual,Ministério Público,,https://mpmt.mp.br/transparencia/sic.php?id=85&tipo=0
+MT,Estadual,Tribunal de Contas,,https://sic.tce.mt.gov.br/1/solicitacao/lista
+PA,Estadual,Executivo,,https://www.sistemas.pa.gov.br/esic/public/main/index.xhtml
+PA,Estadual,Legislativo,,http://ouvidoria.alepa.pa.gov.br/index.php
+PA,Estadual,Judiciário,,https://apps.tjpa.jus.br/ouvidoria/externo/cadastro.do
+PA,Estadual,Ministério Público,,https://www2.mppa.mp.br/transparencia/servico-de-informacao-ao-cidadao-sic.htm
+PA,Estadual,Tribunal de Contas,,https://www.tce.pa.gov.br/index.php/cidadao/ouvidoria
+PB,Estadual,Executivo,,https://sic.pb.gov.br/
+PB,Estadual,Legislativo,,http://www.al.pb.leg.br/transparencia
+PB,Estadual,Judiciário,,https://app.tjpb.jus.br/ouvidoria/abrirManifestacao.xhtml?faces-redirect=true
+PB,Estadual,Ministério Público,,http://www.mppb.mp.br/index.php/sic
+PB,Estadual,Tribunal de Contas,,https://tce.pb.gov.br/portal-da-transparencia/acesso-a-informacao
+PE,Estadual,Executivo,,http://web.transparencia.pe.gov.br/acesso-a-informacao/faca-um-pedido-de-acesso-a-informacao/
+PE,Estadual,Legislativo,,https://www.alepe.pe.gov.br/transparencia-sic/
+PE,Estadual,Judiciário,,https://www.tjpe.jus.br/web/transparencia/servico-de-informacao-ao-cidadao-sic-ouvidoria
+PE,Estadual,Ministério Público,,https://ouvidoriasic.mppe.mp.br/ouvidoriasic/cidadao/manifestacaoCidadaoCadastroSIC.do?idOuvidoria=7
+PE,Estadual,Tribunal de Contas,,https://www.tce.pe.gov.br/internet/index.php/acesso-a-informacao
+PI,Estadual,Executivo,,https://acessoainformacao.pi.gov.br/sigep/
+PI,Estadual,Legislativo,,https://www.alepi.pi.gov.br/ouvidoria2/?idMenu=74
+PI,Estadual,Judiciário,,https://sei.tjpi.jus.br/sei/controlador_externo.php?acao=ouvidoria&acao_origem=ouvidoria&id_orgao_acesso_externo=0
+PI,Estadual,Ministério Público,,https://aplicativos3.mppi.mp.br/ouvidoria/publico/formularioOuvidoria.xhtml
+PI,Estadual,Tribunal de Contas,,https://www.tce.pi.gov.br/transparencia/ouvidoria/central-do-cidadao/
+PR,Estadual,Executivo,,http://www.transparencia.pr.gov.br/pte/acesso-a-informacao
+PR,Estadual,Legislativo,,http://transparencia.assembleia.pr.leg.br/atendimento-ao-cidadao
+PR,Estadual,Judiciário,,https://portal.tjpr.jus.br/sisouv/sisouv2?visaoId=tjdf.sisouv2.internet.apresentacao.VisaoFormularioWeb
+PR,Estadual,Ministério Público,,https://apps.mppr.mp.br/cidadao/acesso_a_informacao
+PR,Estadual,Tribunal de Contas,,https://www1.tce.pr.gov.br/conteudo/ouvidoria/74/area/53
+RJ,Estadual,Executivo,,http://www.esicrj.rj.gov.br/
+RJ,Estadual,Legislativo,,https://transparencia.alerj.rj.gov.br/section/report/88
+RJ,Estadual,Judiciário,,http://www4.tjrj.jus.br/ESOU/HomeVisitante/Index
+RJ,Estadual,Ministério Público,,https://intranet.mprj.mp.br/web/novo-portal-transparencia/servico-de-informacao-ao-cidadao-sic/atendimento-e-orientacao-ao-publico-quanto-ao-acesso-a-informacao
+RJ,Estadual,Tribunal de Contas,,https://www.tcerj.tc.br/portalnovo/pagina/ouvidoria-cadastre
+RN,Estadual,Executivo,,http://www.sic.rn.gov.br/
+RN,Estadual,Legislativo,,http://transparencia.al.rn.leg.br/transparencia/esic.php
+RN,Estadual,Judiciário,,https://apps.tjrn.jus.br/ouvidoria/f/public/requerimento/requerimento.xhtml
+RN,Estadual,Ministério Público,,https://esic.mprn.mp.br/
+RN,Estadual,Tribunal de Contas,,https://www.tce.rn.gov.br/SIC/Index
+RO,Estadual,Executivo,,http://esic.cge.ro.gov.br/
+RO,Estadual,Legislativo,,https://transparencia.al.ro.leg.br/AcessoInformacao/
+RO,Estadual,Judiciário,,https://www.tjro.jus.br/sic
+RO,Estadual,Ministério Público,,https://sic.mpro.mp.br/sic/
+RO,Estadual,Tribunal de Contas,,http://www.tce.ro.gov.br/acessoainformacao
+RR,Estadual,Executivo,,https://www.transparencia.rr.gov.br/acesso-a-informacao
+RR,Estadual,Legislativo,,http://grp.al.rr.leg.br/grp/processos/acessoexterno/ouvidoria.faces
+RR,Estadual,Judiciário,,https://juris.tjrr.jus.br/juris/ouvidoria/public/nova-manifestacao
+RR,Estadual,Ministério Público,,https://www.mprr.mp.br/web/cidadaos/sic
+RR,Estadual,Tribunal de Contas,,https://sei.tcerr.tc.br/sei/controlador_externo.php?acao=ouvidoria&acao_origem=ouvidoria&id_orgao_acesso_externo=0
+RS,Estadual,Executivo,,https://www.rs.gov.br/carta-de-servicos/servicos?servico=887
+RS,Estadual,Legislativo,,http://www.al.rs.gov.br/e-sic/site/index.html?ReturnUrl=%2fe-sic
+RS,Estadual,Judiciário,,https://www.tjrs.jus.br/novo/institucional/transparencia/lei-de-acesso-a-informacao/
+RS,Estadual,Ministério Público,,https://www.mprs.mp.br/atendimento/informacoes/
+RS,Estadual,Tribunal de Contas,,https://portalnovo.tce.rs.gov.br/sic/
+SC,Estadual,Executivo,,http://www.ouvidoria.sc.gov.br/cidadao_lai.php
+SC,Estadual,Legislativo,,https://transparencia.alesc.sc.gov.br/atendimento_cidadao.php
+SC,Estadual,Judiciário,,https://www.tjsc.jus.br/web/transparencia/lei-de-acesso-a-informacao
+SC,Estadual,Ministério Público,,https://mpsc.mp.br/ouvidoria/cadastro-de-manifestacoes#/cadastrar-manifestacao/solicitar-informacoes
+SC,Estadual,Tribunal de Contas,,http://servicos.tce.sc.gov.br/sic/sic/#tabs-5
+SE,Estadual,Executivo,,http://lai.se.gov.br/acesso/
+SE,Estadual,Legislativo,,https://al.se.leg.br/ouvidoria/
+SE,Estadual,Judiciário,,https://www.tjse.jus.br/sic/
+SE,Estadual,Ministério Público,,https://sistemas.mpse.mp.br/4.5/Ouvidoria/Manifestacao/Ouvidoria.aspx
+SE,Estadual,Tribunal de Contas,,https://www.tce.se.gov.br/SitePages/ouvidoria.aspx
+SP,Estadual,Executivo,,http://www.sic.sp.gov.br/
+SP,Estadual,Legislativo,,https://www.al.sp.gov.br/transparencia/fale-conosco/
+SP,Estadual,Judiciário,,https://www.tjsp.jus.br/adm/portal-servicos-frontend/formulario-servico/1
+SP,Estadual,Ministério Público,,https://sis.mpsp.mp.br/atendimentocidadao/Ouvidoria/Manifestacao/EscolherTipoDeIdentificacao
+SP,Estadual,Tribunal de Contas,,https://www4.tce.sp.gov.br/transparencia/sic
+TO,Estadual,Executivo,,http://www.gestao.cge.to.gov.br/ouvidoria/menuAciona/
+TO,Estadual,Legislativo,,https://al.to.leg.br/loginExterno
+TO,Estadual,Judiciário,,https://sei.tjto.jus.br/sei/modulos/tjto/ouvidoria/formulario/index.php?op=2
+TO,Estadual,Ministério Público,,https://mpto.mp.br/ouvidoria/citizen-manifestation/
+TO,Estadual,Tribunal de Contas,,https://www.tceto.tc.br/sic-servico-de-informacao-ao-cidadao/
