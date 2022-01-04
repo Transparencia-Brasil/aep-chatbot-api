@@ -8,6 +8,7 @@ module.exports = {
     try {
       const { resposta } = req.body;
 
+      const idsSigilo = [1,2,3];
       const termos = verificarTermos(resposta);
       let recursos = [];
       if (termos.length) {
@@ -19,9 +20,14 @@ module.exports = {
           }
         });
       }
+      const sigilos = recursos.filter(e => idsSigilo.includes(e.id));
+      const recursosSemSigilo = recursos.filter(e => !idsSigilo.includes(e.id));
+
       res.json({
-        identificouTermos: recursos.length > 0,
-        termos: recursos
+        identificouTermos: recursosSemSigilo.length > 0,
+        identificouSigilo: sigilos.length > 0,
+        termos: recursosSemSigilo,
+        sigilos: sigilos
       });
     } catch (err) {
       console.log(err);
