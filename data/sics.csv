@@ -9,6 +9,9 @@ BR,Federal,Judiciário,Tribunal Regional Federal da 4ª região,https://www.trf4
 BR,Federal,Judiciário,Tribunal Regional Federal da 5ª região,https://sei.trf5.jus.br/sei/controlador_externo.php?acao=ouvidoria&id_orgao_acesso_externo=0
 BR,Federal,Judiciário,Tribunal Superior Eleitoral,https://www.tse.jus.br/eleitor/servicos/ouvidoria/formulario-da-assessoria-de-informacao-ao-cidadao
 BR,Federal,Ministério Público,,https://aplicativos.mpf.mp.br/ouvidoria/app/cidadao/manifestacao/cadastro/2
+BR,Federal,Legislativo,Câmara dos Deputados,https://camara.custhelp.com/app/utils/login_form/redirect/home
+BR,Federal,Legislativo,Senado,https://www12.senado.leg.br/transparencia/formtransparencia
+BR,Federal,Tribunal de Contas,,https://portal.tcu.gov.br/ouvidoria/
 AC,Estadual,Executivo,,http://esic.ac.gov.br/sistema/site/index.html?ReturnUrl=%2fsistema%2f
 AC,Estadual,Legislativo,,http://app.al.ac.leg.br/esic/login
 AC,Estadual,Judiciário,,https://sei.tjac.jus.br/sei/controlador_externo.php?acao=ouvidoria&id_orgao_acesso_externo=0
