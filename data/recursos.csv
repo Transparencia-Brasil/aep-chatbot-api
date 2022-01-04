@@ -1,5 +1,5 @@
 id,termo,descricao,descricao_longa,alternativa,recurso
-1,Sigilo,a resposta indica que a informação solicitada é sigilosa,"a resposta informa o tipo de sigilo (reservado, secreto ou ultrassecreto), o prazo que dura o sigilo e quem foi responsável por colocar a informação em sigilo?",Sigilo,"Apresento recurso contra a negativa de acesso à informação, com base no art. 11, §1º, II e no art. 16, II da Lei de Acesso à Informação (Lei n° 12.527 de 18 de novembro de 2011). 
+1,Sigilo,a resposta indica que a informação solicitada é sigilosa,"A resposta informa o tipo de sigilo (reservado, secreto ou ultrassecreto), o prazo que dura o sigilo e quem foi responsável por colocar a informação em sigilo?",Sigilo,"Apresento recurso contra a negativa de acesso à informação, com base no art. 11, §1º, II e no art. 16, II da Lei de Acesso à Informação (Lei n° 12.527 de 18 de novembro de 2011). 
 
 A resposta não indica “as razões de fato ou de direito da recusa”, ao não informar o grau ou o prazo de sigilo da informação. Além disso, não há, na resposta, indicação da autoridade que classificou a informação como sigilosa.
 
@@ -8,21 +8,21 @@ Diante do exposto, solicito a revisão da decisão para que forneça integralmen
 Aproveito a oportunidade para pedir a revisão da decisão pela negativa, diante do fato que a Lei de Acesso à Informação determina em seu art. 3, inciso I, a publicidade como regra geral e o sigilo como exceção das informações de interesse público. E, caso a informação seja apenas parcialmente sigilosa, a Lei garante acesso à parte não sigilosa por meio de certidão, extrato ou cópia com ocultação da parte sob sigilo (art. 7º, §2º).
 
 Ainda segundo a LAI, informações sigilosas são apenas aquelas que se publicizadas comprometem a segurança da sociedade e/ou do Estado (art. 4°, III), com exceção às informações à tutela judicial ou administrativa de direitos fundamentais (art. 21 caput)."
-2,Sigilo,a resposta indica que a informação solicitada é sigilosa,"a informação que você solicitou é necessária para garantir ou lutar por direitos fundamentais (como saúde, educação)?",Sigilo,"Apresento recurso contra a negativa de acesso à informação, com base no art. 21 da Lei de Acesso à Informação (Lei n° 12.527 de 18 de novembro de 2011). 
+2,Sigilo,a resposta indica que a informação solicitada é sigilosa,"A informação que você solicitou é necessária para garantir ou lutar por direitos fundamentais (como saúde, educação)?",Sigilo,"Apresento recurso contra a negativa de acesso à informação, com base no art. 21 da Lei de Acesso à Informação (Lei n° 12.527 de 18 de novembro de 2011). 
 
 As informações solicitadas são necessárias para garantir direitos fundamentais e, de acordo com o dispositivo legal indicado, não podem ter acesso negado.
 
 [De forma direta e objetiva, aponte os motivos pelos quais a informação que você pediu são necessários para garantir direitos fundamentais. Por exemplo: os dados sobre os contratos firmados com organizações sociais para gestão de unidades de saúde são essenciais para fiscalizar a gestão do direito fundamental à saúde]
 
 Diante do exposto, solicito a reavaliação do pedido de informação e o deferimento deste recurso para que a informação seja fornecida integralmente."
-3,Sigilo,a resposta indica que a informação solicitada é sigilosa,a informação que você solicitou comprova ou tem relação com violações de direitos humanos cometidas ou ordenadas por agentes públicos?,Sigilo,"Apresento recurso contra a negativa de acesso à informação, com base no Parágrafo único do art. 21 da Lei de Acesso à Informação (Lei n° 12.527 de 18 de novembro de 2011). 
+3,Sigilo,a resposta indica que a informação solicitada é sigilosa,A informação que você solicitou comprova ou tem relação com violações de direitos humanos cometidas ou ordenadas por agentes públicos?,Sigilo,"Apresento recurso contra a negativa de acesso à informação, com base no Parágrafo único do art. 21 da Lei de Acesso à Informação (Lei n° 12.527 de 18 de novembro de 2011). 
 
 As informações solicitadas dizem respeito a condutas que implicam violações de direitos humanos praticada por agentes públicos ou a mando de autoridades públicas e, de acordo com o dispositivo legal indicado, não podem ter acesso negado.
 
 [De forma direta e objetiva, aponte os motivos pelos quais a informação que você pediu se refere a violações de direitos humanos envolvendo agentes públicos. Por exemplo: dados sobre casos de abuso policial relacionam-se a violações de direitos humanos praticadas por agentes do Estado e, portanto, não podem ser sigilosos.]
 
 Diante do exposto, solicito a reavaliação do pedido de informação e o deferimento deste recurso para que a informação seja fornecida integralmente."
-4,Sigilo,a resposta indica que a informação solicitada é sigilosa,a informação solicitada foi considerada imprescindível à segurança da sociedade ou do Estado?,Sigilo,"Apresento recurso contra a negativa ao pedido de informação diante do não cabimento da restrição de acesso por risco à segurança da sociedade ou do Estado às informações solicitadas.
+4,Segurança da sociedade ou do Estado,a resposta indica que a informação solicitada é sigilosa,a informação solicitada foi considerada imprescindível à segurança da sociedade ou do Estado?,Segurança da sociedade ou do Estado,"Apresento recurso contra a negativa ao pedido de informação diante do não cabimento da restrição de acesso por risco à segurança da sociedade ou do Estado às informações solicitadas.
 
 [De forma direta e objetiva, aponte os motivos pelos quais a divulgação da informação que você pediu não representaria risco à segurança da sociedade ou do Estado, ou seja, não prejudicaria investigações em andamento, ou o planejamento de ações, ou a segurança de altas autoridades públicas. Por exemplo: a divulgação da lista de visitantes ao Palácio do Planalto em datas anteriores não colocar em risco a segurança do presidente da República, tendo em vista que a informação não revela a rotina da autoridade nem as estratégias para garantir a segurança dele.]
 
