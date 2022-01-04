@@ -11,6 +11,7 @@ class Recurso extends Model {
       },
       termo: DataTypes.STRING,
       descricao: DataTypes.STRING,
+      descricaoLonga: DataTypes.STRING,
       recurso: DataTypes.TEXT,
     }, {
       sequelize: connection,
