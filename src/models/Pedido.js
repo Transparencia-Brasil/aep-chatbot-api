@@ -9,6 +9,7 @@ class Pedido extends Model {
         autoIncrement: true,
         allowNull: false,
       },
+      blip_userid: DataTypes.STRING,
       email: DataTypes.STRING,
       pedido: DataTypes.TEXT,
     }, {

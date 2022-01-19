@@ -3,14 +3,15 @@ const Pedido = require('../models/Pedido');
 module.exports = {
   async create(req, res) {
     try {
-      const { pedido } = req.body;
-      if (!pedido) {
+      const { pedido, blip_userid } = req.body;
+      if (!pedido || !blip_userid) {
         res.status(400).json({ msg: "Dados inválidos" });
       }
 
       const resultado = await Pedido.create({
         email: "",
-        pedido
+        pedido,
+        blip_userid
       });
       return res.json(resultado);
     } catch (err) {
