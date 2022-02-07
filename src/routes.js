@@ -6,6 +6,7 @@ const AnalisadorController = require('./controllers/AnalisadorController');
 const RecursoController = require('./controllers/RecursoController');
 const SicController = require('./controllers/SicController');
 const PedidoController = require('./controllers/PedidoController');
+const FeedbackController = require('./controllers/FeedbackController');
 
 const routes = express.Router();
 
@@ -42,5 +43,8 @@ routes.get('/pedidos', PedidoController.index);
 routes.get('/pedidos/:id', checkToken, PedidoController.get);
 routes.post('/pedidos', checkToken, PedidoController.create);
 routes.put('/pedidos', checkToken, PedidoController.update);
+routes.get('/feedbacks', checkToken, FeedbackController.index);
+routes.post('/feedbacks', checkToken, FeedbackController.create);
+routes.put('/feedbacks', checkToken, FeedbackController.update);
 
 module.exports = routes;

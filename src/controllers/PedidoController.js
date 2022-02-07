@@ -58,6 +58,7 @@ module.exports = {
 
       return res.json(pedido);
     } catch (err) {
+      console.log(err);
       return res.json({ msg: "Ops! Houve um erro." });
     }
   },
