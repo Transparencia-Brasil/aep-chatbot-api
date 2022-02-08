@@ -40,6 +40,7 @@ routes.get('/recursos/get/:ids', checkToken, RecursoController.getByIds);
 routes.get('/sics', checkToken, SicController.index);
 routes.get('/sics/pesquisar', checkToken, SicController.search);
 routes.get('/pedidos', PedidoController.index);
+routes.get('/pedidos/contatos', PedidoController.contatos);
 routes.get('/pedidos/:id', checkToken, PedidoController.get);
 routes.post('/pedidos', checkToken, PedidoController.create);
 routes.put('/pedidos', checkToken, PedidoController.update);

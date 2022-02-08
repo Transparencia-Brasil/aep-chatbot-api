@@ -1,4 +1,7 @@
-const Pedido = require('../models/Pedido');
+const { Op, Sequelize } = require("sequelize");
+const { Parser } = require("json2csv");
+
+const Pedido = require("../models/Pedido");
 
 module.exports = {
   async create(req, res) {
@@ -11,7 +14,7 @@ module.exports = {
       const resultado = await Pedido.create({
         email: "",
         pedido,
-        blip_userid
+        blip_userid,
       });
       return res.json(resultado);
     } catch (err) {
@@ -27,13 +30,16 @@ module.exports = {
         res.status(400).json({ msg: "Dados inválidos" });
       }
 
-      const resultado = await Pedido.update({
-        email
-      }, {
-        where: {
-          id
+      const resultado = await Pedido.update(
+        {
+          email,
+        },
+        {
+          where: {
+            id,
+          },
         }
-      });
+      );
       return res.json({ msg: "Pedido atualizado com sucesso" });
     } catch (err) {
       console.log(err);
@@ -43,7 +49,26 @@ module.exports = {
 
   async index(req, res) {
     try {
+      const { formato } = req.query;
       const pedidos = await Pedido.findAll();
+
+      if (formato === "csv") {
+        const pedidosCSV = pedidos.map((p) => {
+          return {
+            usuario_blip: p.blip_userid,
+            email: p.email,
+            pedido: p.pedido,
+            feito_em: p.updatedAt,
+          };
+        });
+        const json2csv = new Parser();
+        const csv = json2csv.parse(pedidosCSV);
+        res.header("Content-Type", "text/csv");
+        res.attachment("pedidos.csv");
+
+        return res.send(csv);
+      }
+
       return res.json(pedidos);
     } catch (err) {
       console.log(err);
@@ -63,4 +88,36 @@ module.exports = {
     }
   },
 
-}
+  async contatos(req, res) {
+    try {
+      const { formato } = req.query;
+      const pedidos = await Pedido.findAll({
+        where: {
+          [Op.and]: [{ email: { [Op.ne]: null } }, { email: { [Op.ne]: "" } }],
+        },
+      });
+
+      if (formato === "csv") {
+        const pedidosCSV = pedidos.map((p) => {
+          return {
+            usuario_blip: p.blip_userid,
+            email: p.email,
+            pedido: p.pedido,
+            feito_em: p.updatedAt,
+          };
+        });
+        const json2csv = new Parser();
+        const csv = json2csv.parse(pedidosCSV);
+        res.header("Content-Type", "text/csv");
+        res.attachment("pedidos.csv");
+
+        return res.send(csv);
+      }
+
+      return res.json(pedidos);
+    } catch (err) {
+      console.log(err);
+      return res.json({ msg: "Ops! Houve um erro." });
+    }
+  },
+};
