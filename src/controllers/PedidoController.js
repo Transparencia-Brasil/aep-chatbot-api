@@ -100,11 +100,21 @@ module.exports = {
       if (formato === "csv") {
         const pedidosCSV = pedidos
           .map((p) => {
+            const data = new Date(p.updatedAt);
             return {
               usuario_blip: p.blip_userid,
               email: p.email,
               pedido: p.pedido,
-              feito_em: p.updatedAt,
+              feito_em:
+                data.getDate() +
+                "/" +
+                data.getMonth() +
+                "/" +
+                data.getFullYear() +
+                " " +
+                data.getHours() +
+                ":" +
+                data.getMinutes(),
             };
           })
           .filter((p) =>
