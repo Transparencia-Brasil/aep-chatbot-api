@@ -108,7 +108,7 @@ module.exports = {
               feito_em:
                 data.getDate() +
                 "/" +
-                data.getMonth() +
+                (("0" + (data.getMonth() + 1)).slice(-2)) +
                 "/" +
                 data.getFullYear() +
                 " " +
