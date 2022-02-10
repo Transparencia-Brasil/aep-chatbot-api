@@ -98,20 +98,26 @@ module.exports = {
       });
 
       if (formato === "csv") {
-        const pedidosCSV = pedidos.map((p) => {
-          return {
-            usuario_blip: p.blip_userid,
-            email: p.email,
-            pedido: p.pedido,
-            feito_em: p.updatedAt,
-          };
-        });
-        const json2csv = new Parser();
-        const csv = json2csv.parse(pedidosCSV);
-        res.header("Content-Type", "text/csv");
-        res.attachment("pedidos.csv");
-
-        return res.send(csv);
+        const pedidosCSV = pedidos
+          .map((p) => {
+            return {
+              usuario_blip: p.blip_userid,
+              email: p.email,
+              pedido: p.pedido,
+              feito_em: p.updatedAt,
+            };
+          })
+          .filter((p) =>
+            p.email.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g)
+          );
+        if (pedidosCSV.length) {
+          const json2csv = new Parser();
+          const csv = json2csv.parse(pedidosCSV);
+          res.header("Content-Type", "text/csv");
+          res.attachment("pedidos.csv");
+          return res.send(csv);
+        }
+        return res.json({ msg: "Não foi possivel gerar CSV.", a: pedidosCSV });
       }
 
       return res.json(pedidos);
